@@ -1,0 +1,50 @@
+body {
+background: #f8f8f8;
+font-family: 'Segoe UI', Arial, sans-serif;
+margin: 0;
+padding: 30px 0;
+}
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 32px 24px 32px 24px;
+}
+.file-container {
+    border: 2px solid #888;
+    background: #f5f5f5;
+    border-radius: 3px;
+    padding: 24px 0;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+.file-container.dragover {
+    background: #e2edff;
+    border-color: #3778c2;
+}
+.upload-btn {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    padding: 8px 18px;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#file-input {
+    display: none;
+}
+.file-table-container {
+    margin-top: 24px;
+    border: 2px solid #888;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.status {
+    color: #444;
+    font-style: italic;
+}
