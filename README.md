@@ -2,7 +2,7 @@
 
 A Laravel-based file upload and real-time status dashboard using Echo, Pusher, Redis, and SQLite.
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](./Screenshot.png)
 
 ## Features
 - File upload with status tracking
